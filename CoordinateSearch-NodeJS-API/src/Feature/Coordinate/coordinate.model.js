@@ -1,4 +1,4 @@
-const Repository = [
+const Model = [
 	{
 		id: 1,
 		name: 'Lánchíd budai oldal',
@@ -19,4 +19,4 @@ const Repository = [
 	},
 ];
 
-module.exports = Repository;
+module.exports = Model;

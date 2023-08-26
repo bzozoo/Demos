@@ -1,9 +1,9 @@
-const Repository = require('./coordinate.repository');
+const Model = require('./coordinate.model');
 const { calculateDistance } = require('../../Tools/calculators');
 const config = require('../../constants/config');
 
 function searchByCoordinates({ latitude, longitude }) {
-	const filteredData = Repository.filter((item) => {
+	const filteredData = Model.filter((item) => {
 		const distance = calculateDistance(
 			latitude,
 			longitude,
